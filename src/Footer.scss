@@ -1,0 +1,83 @@
+section {
+    background-color: rgba(15, 29, 40, 0.9);
+    
+    > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        max-width: 1140px;
+        margin: auto;
+        color: white;
+        font-family: "Lato";
+        font-size: 15px;
+        padding: 0 3rem;
+
+    
+        .logo2 {
+            height: 200px;
+            width: auto;
+            margin: 20px 0;
+        }
+
+        ul {
+            display: block;
+            padding: 0 1rem;
+            margin: 0;
+            margin-top: 45px;
+           
+            h4 {
+                color: white;
+                margin-bottom: 15px;
+            }
+            p,
+            a {
+                line-height: 23.5px;
+                font-size: 15px;
+                margin: 0;
+            }
+
+            a, 
+            a:link, 
+            a:visited {
+                display: block;
+                color: white;
+                text-decoration: none;
+                &:hover,
+                &:active {
+                    text-decoration: underline;
+                }
+            }
+        }    }
+}
+
+
+footer {
+    background-color: rgba(15, 29, 40);
+    font-family: "Lato";
+
+    > div {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: white;
+        font-size: 15px;
+        height: 80px;
+        max-width: 1140px;
+        margin: auto;
+        padding: 0 3rem;
+    }
+    .services {
+        padding-left: 0;
+        a { 
+            color: white;
+            text-decoration: none;
+            padding: 15px 15px;
+        }
+        a:nth-child(3) {
+            padding-right: 15px;
+        }
+        a:hover {
+            color: #28587f;
+        }
+    }
+}
