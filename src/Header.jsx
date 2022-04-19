@@ -1,4 +1,5 @@
 import "./Header.scss";
+import { Link } from "react-router-dom";
 
 function Header() {
   function scrollToSection(e) {
@@ -30,17 +31,18 @@ function Header() {
 
           <a onClick={() => scrollToSection2("#wills")}>Wills & Estates</a>
 
-          <a className="butt">
+          <Link className="butt" to="/contact">
             <img
               className="bubble"
               src="/speech-bubble.png"
               alt="speech bubble"
             />
             ENQUIRE NOW
-          </a>
+          </Link>
         </div>
       </div>
-      <img className="logo" src="/logo.jpg" alt="logo" />
+      <div className="hero"></div>
+      {/* <img className="logo" src="/logo.svg" alt="logo" /> */}
     </header>
   );
 }

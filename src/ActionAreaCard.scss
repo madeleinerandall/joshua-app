@@ -1,0 +1,23 @@
+#actioncard {
+    background-color: rgba(210, 171, 118, 0.85);
+    
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #484c59;
+        max-width: 900px;
+        padding: 30px 3rem;
+        margin: auto;
+    
+    > ul {
+        margin-top: 10px;
+
+        > img {
+            height: 40px;
+            width: auto;
+        }
+    }
+    }
+}

@@ -1,16 +1,22 @@
 import "./App.scss";
 import Header from "./Header";
-import Cards from "./Cards";
-import Body from "./Body";
-import Form from "./Contact";
+import Contact from "./Contact";
+import ActionAreaCard from "./ActionAreaCard";
+import HomePage from "./HomePage";
+import Tc from "./Tc";
 import Footer from "./Footer";
+
+import { Routes, Route, Link } from "react-router-dom";
 
 function App() {
   return (
     <div className="App">
       <Header></Header>
-      <Cards></Cards>
-      <Body></Body>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/tc" element={<Tc />} />
+        <Route path="/contact" element={<Contact />} />
+      </Routes>
       <Footer></Footer>
     </div>
   );

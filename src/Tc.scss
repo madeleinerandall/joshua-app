@@ -1,0 +1,15 @@
+.tc {
+    background-color: rgba(210, 171, 118, 0.85);
+    padding: 50px 200px;
+
+    > h1 {
+        padding-top: 0%;
+    }
+
+    > p {
+        font-family: 'Lato';
+        line-height: 23.5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+}
