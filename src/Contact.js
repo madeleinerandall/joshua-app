@@ -25,6 +25,8 @@ function Contact() {
     });
   }
 
+  // href="mailto:jrandall@randallandassoc.com?subject=Enquiry&body=foobar"
+
   return (
     <>
       <section className="form">

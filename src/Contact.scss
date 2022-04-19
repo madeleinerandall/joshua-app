@@ -58,10 +58,30 @@ article {
         margin: auto;
         padding: 0 3rem;
 
+        @media (max-width: 900px) { 
+            padding: 0 10px;
+            
+        }
+
+        @media (max-width: 785px) { 
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 0;
+            
+        }
+
         > ul {
             max-width: 300px;
             padding: 0 16px;
             margin: 45px 0px;
+
+            @media (max-width: 785px) { 
+                &:nth-child(2),
+                &:nth-child(3) {
+                    margin-top: 0%;
+                }
+            }
         
             > h3 {
                 text-decoration: none;

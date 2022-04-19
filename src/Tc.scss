@@ -2,6 +2,15 @@
     background-color: rgba(210, 171, 118, 0.85);
     padding: 50px 200px;
 
+    @media (max-width: 785px) { 
+        padding: 50px 100px;
+    }
+
+    @media (max-width: 530px) { 
+        padding: 50px 50px;
+        
+    }
+
     > h1 {
         padding-top: 0%;
     }

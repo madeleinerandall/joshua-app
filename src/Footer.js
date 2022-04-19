@@ -5,7 +5,7 @@ function Footer() {
   return (
     <>
       <section>
-        <div>
+        <div className="media">
           <img className="logo2" src="/logo.svg" alt="logo" />
 
           <ul>
@@ -33,7 +33,7 @@ function Footer() {
       </section>
 
       <footer>
-        <div>
+        <div className="media">
           <p>
             Copyright © Randall & Associates Pty Ltd, 2022. All rights reserved.
           </p>
