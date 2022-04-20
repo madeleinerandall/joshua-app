@@ -16,10 +16,31 @@ function Header() {
     });
   }
 
+  function openNav() {
+    document.getElementById("mySidenav").style.width = "250px";
+  }
+  function closeNav() {
+    document.getElementById("mySidenav").style.width = "0";
+  }
+
   return (
     <header>
       <div className="section">
-        <h2>Call: (02) 837 876 98</h2>
+        <h2>Call: (02) 8378 7698</h2>
+
+        <div id="mySidenav" class="sidenav">
+          <a class="closebtn" onClick={closeNav}>
+            &times;
+          </a>
+          <a href="/">Home</a>
+          <a href="/#prop">Services</a>
+          <Link to="/contact">Contact us</Link>
+          <Link to="/Tc">T and C's</Link>
+        </div>
+        <span onClick={openNav}>
+          <span class="material-icons md-48">menu</span>
+        </span>
+
         <div className="items">
           <a href="#prop" onClick={scrollToSection}>
             Property & Conveyancing
@@ -41,6 +62,7 @@ function Header() {
           </Link>
         </div>
       </div>
+
       <div className="hero"></div>
       {/* <img className="logo" src="/logo.svg" alt="logo" /> */}
     </header>

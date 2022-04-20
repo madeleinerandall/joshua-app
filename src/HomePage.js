@@ -59,7 +59,7 @@ function HomePage() {
         <p>
           For further information or a free no obligation quote for your
           conveyancing please contact us on (02) 8378 7698 or
-          jrandall@randallandassoc.com.
+          mail@randallandassoc.com.
         </p>
 
         <h1 id="personal">Personal Injury</h1>
@@ -79,7 +79,7 @@ function HomePage() {
         <p>
           If you would like us to review the circumstances surrounding your
           injury for a free no obligation check of your potential entitlements,
-          contact us on (02) 8378 7698 or jrandall@randallandassoc.com.
+          contact us on (02) 8378 7698 or mail@randallandassoc.com.
         </p>
         <h1 id="wills">Wills & Estates</h1>
         <p>
@@ -113,7 +113,7 @@ function HomePage() {
         <p>
           For further information or a free no obligation quote for our estate
           services, please contact us on (02) 8378 7698 or
-          jrandall@randallandassoc.com.
+          mail@randallandassoc.com.
         </p>
       </div>
     </main>

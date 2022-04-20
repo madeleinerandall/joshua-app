@@ -34,7 +34,9 @@ header {
         text-decoration: none;
         color: white;
         padding: 10px 10px;
-
+        @media (max-width: 444px) { 
+                display: none;
+            }
     }
 
     a:hover {
@@ -48,6 +50,14 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: 70%;
+    background-position-x: center;
+
+    @media (max-width: 600px) { 
+        height: 400px;
+    }
+    @media (max-width: 500px) { 
+        height: 300px;
+    }
 }
 .logo {
     height: 700px;
@@ -78,3 +88,46 @@ a.butt {
     padding: 10px 10px;
     filter: invert(1);
 }
+.material-icons.md-48 { 
+    font-size: 48px;
+    color: white; 
+    display: none;
+
+    @media (max-width: 444px) {
+        display: block;
+        }
+  }
+  .sidenav {
+    height: 100%; 
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: white; 
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Lato';
+    color: #282d3c;
+    display: block;
+    transition: 0.3s;
+  }
+  .sidenav a:hover {
+    font-weight: 700;
+    color: #f1f1f1;
+  }
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+  } 
+  span {
+    margin-right: auto;
+  }
