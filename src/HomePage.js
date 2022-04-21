@@ -1,10 +1,34 @@
 import ActionAreaCard from "./ActionAreaCard";
 import "./HomePage.scss";
+import { Link } from "react-router-dom";
+import Banner from "./Banner";
 
 function HomePage() {
   return (
     <main>
-      {/* <ActionAreaCard></ActionAreaCard> */}
+      {/* <div className="about">
+        <h2>Sydney Lawyers you can count on</h2>
+        <p>
+          For over 21 years Clinch Long Woodbridge has represented and supported
+          the legal interests of a diverse range of industries, companies and
+          brands, both globally and domestically, as well as the personal and
+          legal needs of thousands of Australians. Putting YOU first is crucial
+          as we develop realistic and sustainable legal solutions that work when
+          you most need it. Our multi-disciplinary law team ensures you can
+          access the right advice and support, to suit your changing business
+          and personal needs.
+        </p>
+        <Link className="butt" to="/contact">
+          MORE ABOUT US
+        </Link>
+        <ActionAreaCard></ActionAreaCard>
+        <Banner></Banner>
+      </div> */}
+
+      {/* <div className="test">
+        <h2>Our Testimonials</h2>
+      </div> */}
+
       <div className="body">
         <h1 id="prop">Property & Conveyancing</h1>
         <h3>Buying or selling property - Conveyancing</h3>
@@ -61,7 +85,6 @@ function HomePage() {
           conveyancing please contact us on (02) 8378 7698 or
           mail@randallandassoc.com.
         </p>
-
         <h1 id="personal">Personal Injury</h1>
         <h3>Injury Law</h3>
         <p>

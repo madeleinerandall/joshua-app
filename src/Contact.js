@@ -16,21 +16,24 @@ function Contact() {
 
   function handleSubmit(e) {
     e.preventDefault();
-    console.log({
-      firstName,
-      lastName,
-      enquiry,
-      email,
-      message,
-    });
-  }
 
-  // href="mailto:jrandall@randallandassoc.com?subject=Enquiry&body=foobar"
+    const link = document.createElement("a");
+    const destinationEmail = "jrandall@randallandassoc.com";
+    const body = `First Name: ${firstName} \nLast Name: ${lastName} \nEmail: ${email}\nEnquiry: ${enquiry}\nMessage: ${message}`;
+    link.setAttribute(
+      "href",
+      `mailto:${destinationEmail}?subject=Enquiry&body=${encodeURIComponent(
+        body
+      )}`
+    );
+    document.body.appendChild(link);
+    link.click();
+  }
 
   return (
     <>
       <section className="form">
-        <div>
+        <div id="foo">
           <h1>Contact us</h1>
           <p>Get in touch</p>
 
@@ -39,6 +42,7 @@ function Contact() {
               id="first-name"
               className="half"
               margin="normal"
+              type="given-name"
               value={firstName}
               onChange={(e) => setFirstName(e.target.value)}
               label="First Name"
@@ -50,6 +54,7 @@ function Contact() {
               id="last-name"
               className="half"
               margin="normal"
+              type="family-name"
               value={lastName}
               onChange={(e) => setLastName(e.target.value)}
               label="Last Name"
@@ -62,6 +67,7 @@ function Contact() {
               <Select
                 labelId="enquiry"
                 id="demo-simple-select-standard"
+                type="email"
                 value={enquiry}
                 onChange={(e) => setEnquiry(e.target.value)}
                 label="Age"

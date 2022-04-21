@@ -28,8 +28,8 @@ function Header() {
       <div className="section">
         <h2>Call: (02) 8378 7698</h2>
 
-        <div id="mySidenav" class="sidenav">
-          <a class="closebtn" onClick={closeNav}>
+        <div id="mySidenav" className="sidenav">
+          <a className="closebtn" onClick={closeNav}>
             &times;
           </a>
           <a href="/">Home</a>
@@ -38,7 +38,7 @@ function Header() {
           <Link to="/Tc">T and C's</Link>
         </div>
         <span onClick={openNav}>
-          <span class="material-icons md-48">menu</span>
+          <span className="material-icons md-48">menu</span>
         </span>
 
         <div className="items">

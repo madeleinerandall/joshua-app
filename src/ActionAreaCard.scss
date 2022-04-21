@@ -1,21 +1,30 @@
 #actioncard {
-    background-color: rgba(210, 171, 118, 0.85);
-    
+   background-color: white;
+    margin-top: 30px;
+    margin-bottom: 50px;
     .cards {
         display: flex;
         justify-content: center;
         align-items: center;
         text-align: center;
-        background-color: #484c59;
-        max-width: 900px;
-        padding: 30px 3rem;
+        background-color: white;
         margin: auto;
     
     > ul {
-        margin-top: 10px;
+        background-color: #484c59;
+        box-shadow: 10px 5px 5px grey;
+        border-radius: 10px;
+        width: 100px;
+        cursor: pointer;
+        padding: 30px 3rem;
+        margin: 30px 30px;
+
+        &:hover {
+            opacity: 0.5;
+        }
 
         > img {
-            height: 40px;
+            height: 100px;
             width: auto;
         }
     }

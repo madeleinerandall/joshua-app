@@ -4,13 +4,13 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <>
-      <section>
+      <section className="footer">
         <div className="media">
           <img className="logo2" src="/logo.svg" alt="logo" />
 
           <ul>
             <h4>Contact Info</h4>
-            <p>(02) 837 876 98</p>
+            <p>(02) 8378 7698</p>
             <a href="mailto:mail@randallandassoc.com">
               mail@randallandassoc.com
             </a>
