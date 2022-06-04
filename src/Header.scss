@@ -14,10 +14,13 @@ header {
             justify-content: flex-end;
         }
     }
+    img {
+        height: 20px;
+        width: auto;
+    }
     h2 {
-        font-size: 20px;
-        font-weight: 500;
-        color: #d2ab76;
+        font-size: 16.5px;
+        padding: 10px 10px;
         margin: 0%;
 
         @media (max-width: 870px) { 
@@ -33,14 +36,15 @@ header {
     a {
         text-decoration: none;
         color: white;
-        padding: 10px 10px;
+        padding: 10px 15px;
         @media (max-width: 444px) { 
                 display: none;
             }
     }
 
     a:hover {
-        color: #28587f;
+        background-color: grey;
+        border-radius: 25px;
     }
 }
 .hero {

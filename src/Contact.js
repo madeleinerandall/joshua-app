@@ -18,7 +18,7 @@ function Contact() {
     e.preventDefault();
 
     const link = document.createElement("a");
-    const destinationEmail = "jrandall@randallandassoc.com";
+    const destinationEmail = "mail@randallandassoc.com";
     const body = `First Name: ${firstName} \nLast Name: ${lastName} \nEmail: ${email}\nEnquiry: ${enquiry}\nMessage: ${message}`;
     link.setAttribute(
       "href",
@@ -125,7 +125,7 @@ function Contact() {
             <img className="icons" src="/phone-icon-white.png" alt="phone" />
             <h3>Phone</h3>
             <p>Talk to our experienced lawyers</p>
-            <p>(02) 837 876 98</p>
+            <p>(02) 8378 7698</p>
           </ul>
 
           <ul>

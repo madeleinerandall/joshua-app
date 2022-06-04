@@ -26,7 +26,8 @@ function Header() {
   return (
     <header>
       <div className="section">
-        <h2>Call: (02) 8378 7698</h2>
+        <img className="phone" src="/phone-icon-white.png" alt="phone" />
+        <h2>(02) 8378 7698</h2>
 
         <div id="mySidenav" className="sidenav">
           <a className="closebtn" onClick={closeNav}>

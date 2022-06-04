@@ -1,8 +1,8 @@
 import "./App.scss";
 import Header from "./Header";
 import Contact from "./Contact";
-import ActionAreaCard from "./ActionAreaCard";
-import HomePage from "./HomePage";
+import ActionAreaCard from "./Homepage/ActionAreaCard";
+import HomePage from "./Homepage/HomePage";
 import Tc from "./Tc";
 import Footer from "./Footer";
 

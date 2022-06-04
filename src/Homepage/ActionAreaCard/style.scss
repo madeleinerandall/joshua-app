@@ -1,0 +1,49 @@
+#actioncard {
+   background-color: white;
+    margin: 70px 0;
+    
+    .cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: white;
+        margin: auto;
+    
+        > ul {
+            display: flex;   
+            padding: 0;     
+
+            > a {
+                list-style: none;
+                text-decoration: none;
+                background-color: #282d3c;
+                box-shadow: 10px 5px 5px grey;
+                border-bottom: 6px solid #d2ab76;
+                border-radius: 10px;
+                height: 200px;
+                width: 130px;
+                cursor: pointer;
+                padding: 30px 3rem;
+                margin: 30px 30px;
+                transition: all ease 100ms;
+
+                &:hover {
+                    opacity: 0.9;
+                    transform: translateY(-1px);
+                    box-shadow: 12px 6px 5px grey;
+                }
+
+                > img {
+                    height: 100px;
+                    width: auto;
+                }
+
+                > h4 {
+                    color: white;
+                    font-family: "Lato";
+                } 
+            }
+        }
+    }
+}
