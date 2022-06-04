@@ -1,6 +1,10 @@
 #actioncard {
    background-color: white;
     margin: 70px 0;
+
+    @media (max-width: 990px) {
+        margin: 30px 0px; 
+    }
     
     .cards {
         display: flex;
@@ -11,8 +15,17 @@
         margin: auto;
     
         > ul {
-            display: flex;   
-            padding: 0;     
+            display: flex;  
+            padding: 0;    
+            
+            @media (max-width: 1120px) {
+                flex-wrap: wrap; 
+            }
+
+            @media (max-width: 990px) {
+                justify-content: center;
+                width: 700px; 
+            }
 
             > a {
                 list-style: none;
@@ -32,6 +45,24 @@
                     opacity: 0.9;
                     transform: translateY(-1px);
                     box-shadow: 12px 6px 5px grey;
+                }
+
+                @media (max-width: 1120px) {
+                    margin: 0px 10px;
+                }
+
+                @media (max-width: 990px) {
+                    margin: 20px 20px;
+                }
+
+                @media (max-width: 535px) {
+                    padding: 30px 30px;
+                    margin: 10px 10px;
+                }
+
+                @media (max-width: 435px) {
+                    padding: 20px 20px;
+                    margin: 5px 5px;
                 }
 
                 > img {

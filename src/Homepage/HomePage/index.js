@@ -23,7 +23,7 @@ function HomePage() {
       <Banner></Banner>
       <section className="homecontact">
         <div className="gutters">
-          <h2 className="padding">
+          <h2>
             Contact us. Get in touch today for a fast responce within 24hrs.
           </h2>
           <div className="padding">
