@@ -1,32 +1,40 @@
 #banner {
-    
+    // position: relative; // position absolute children are positioned relative to this element
     background-image: url(../../../public/quote2.jpg);
     background-size: cover;
     background-position-y: 0%;
     background-repeat: no-repeat;
 
-    > div {
-        height: 500px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-    
-        @media (max-width: 990px) {
-            margin: 0px;
-          }
-    
-            > h1 {
-                max-width: 800px;
-                text-align: center;
-                color: white;
-            }
-    
-            > p { 
-                color: white;
-                margin-bottom: 0%;
-            } 
-    
+    > .background-filter {
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.2);
+
+        > div {
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        
+            @media (max-width: 990px) {
+                margin: 0px;
+              }
+        
+                > h1 {
+                    max-width: 800px;
+                    text-align: center;
+                    color: white;
+                }
+        
+                > p { 
+                    color: white;
+                    margin-bottom: 0%;
+                } 
+        
+        }
     }
+
+    
 }
 
