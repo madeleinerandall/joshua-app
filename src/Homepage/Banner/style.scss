@@ -1,12 +1,12 @@
 #banner {
+    
     background-image: url(../../../public/quote2.jpg);
     background-size: cover;
-    background-position-y: 30%;
+    background-position-y: 0%;
     background-repeat: no-repeat;
 
     > div {
         height: 500px;
-        // width: 100%;
         display: flex;
         flex-direction: column;
         align-items: center;
