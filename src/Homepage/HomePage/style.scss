@@ -25,6 +25,9 @@
                 padding-right: 0%;
                 padding-bottom: 30px;
               }
+              @media (max-width: 500px) {
+                font-size: 24px;
+              }
         }
         > p {
             color: #282d3c;
@@ -43,6 +46,9 @@
                 padding-top: 0px;
                 padding-left: 0px;
                 padding-bottom: 50px;
+              }
+              @media (max-width: 620px) {
+                font-size: 15px;
               }
         }
     }
@@ -91,6 +97,9 @@
                 padding-right: 0%;
                 padding-bottom: 30px;
               }
+              @media (max-width: 500px) {
+                font-size: 24px;
+              }
     }
 }
     .padding {
@@ -118,6 +127,9 @@
             }
             @media (max-width: 620px) {
                 padding-left: 0px;
+              }
+              @media (max-width: 620px) {
+                font-size: 15px;
               }
         }
         .enquire {
