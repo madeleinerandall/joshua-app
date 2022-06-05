@@ -64,8 +64,7 @@ function Header() {
         </div>
       </div>
 
-      <div className="hero"></div>
-      {/* <img className="logo" src="/logo.svg" alt="logo" /> */}
+      <div className="hero" />
     </header>
   );
 }
