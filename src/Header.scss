@@ -17,6 +17,10 @@ header {
     img {
         height: 20px;
         width: auto;
+
+        @media (max-width: 870px) { 
+            display: none;
+        }
     }
     h2 {
         font-size: 16.5px;

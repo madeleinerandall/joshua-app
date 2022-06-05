@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 export default function Banner() {
   return (
     <section id="banner">
-      <div className="banner">
+      <div className="gutters">
         <h1>
           "Very thorough and great communication throughout the entire process
           from the time we made our offer on the property right up until

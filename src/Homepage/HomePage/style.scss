@@ -98,6 +98,13 @@
         flex-direction: column;
         width: 50%;
         padding-left: 50px;
+
+        @media (max-width: 620px) {
+            width: 100%;
+            padding-left: 0px;
+            padding-top: 0px;
+            padding-left: 0px;
+          }
         > p {
             color: #282d3c;
             font-family: 'Lato';
@@ -110,10 +117,7 @@
                 padding-left: 25px;
             }
             @media (max-width: 620px) {
-                width: 100%;
-                padding-top: 0px;
                 padding-left: 0px;
-                padding-bottom: 50px;
               }
         }
         .enquire {
