@@ -9,18 +9,10 @@ header {
         justify-content: space-between;
         align-items: center;
         padding: 20px 20px;
-    
-        @media (max-width: 870px) { 
-            justify-content: flex-end;
-        }
     }
     img {
         height: 20px;
         width: auto;
-
-        @media (max-width: 870px) { 
-            display: none;
-        }
     }
     h2 {
         font-size: 16.5px;
@@ -51,6 +43,11 @@ header {
         border-radius: 25px;
     }
 }
+.phone {
+    @media (max-width: 870px) { 
+        display: none;
+    }
+}
 .hero {
     height: 500px;
     width: 100%;
@@ -71,7 +68,7 @@ header {
     height: 700px;
     width: 100%;
 }
-a.butt {
+.butt {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -82,7 +79,7 @@ a.butt {
     color: white;
     font-weight: bold;
     padding: 5px 20px 5px 7px;
-    border-radius: 10px;
+    border-radius: 25px;
     margin-left: 10px;
     margin-right: 10px;
 
