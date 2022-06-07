@@ -7,6 +7,9 @@ import Tc from "./Tc";
 import Footer from "./Footer";
 
 import { Routes, Route, Link } from "react-router-dom";
+import PropertyAndConveyancing from "./PropertyAndConveyancing";
+import PersonalInjury from "./PersonalInjury";
+import WillsAndEstates from "./WillsAndEstates";
 
 function App() {
   return (
@@ -16,6 +19,12 @@ function App() {
         <Route path="/" element={<HomePage />} />
         <Route path="/tc" element={<Tc />} />
         <Route path="/contact" element={<Contact />} />
+        <Route
+          path="/property-and-conveyancing"
+          element={<PropertyAndConveyancing />}
+        />
+        <Route path="/personal-injury" element={<PersonalInjury />} />
+        <Route path="/wills-and-estates" element={<WillsAndEstates />} />
       </Routes>
       <Footer></Footer>
     </div>

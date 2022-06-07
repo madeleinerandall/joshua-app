@@ -4,7 +4,7 @@ function PersonalInjury() {
   return (
     <>
       <section>
-        <div>
+        <div className="gutters personal">
           <h1 id="personal">Personal Injury</h1>
           <h3>Injury Law</h3>
           <p>

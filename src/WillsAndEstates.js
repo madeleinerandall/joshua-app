@@ -4,7 +4,7 @@ function WillsAndEstates() {
   return (
     <>
       <section>
-        <div>
+        <div className="gutters wills">
           <h1 id="wills">Wills & Estates</h1>
           <p>
             Talking about death is never easy, but not having a legally binding

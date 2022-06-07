@@ -4,7 +4,7 @@ function PropertyAndConveyancing() {
   return (
     <>
       <section>
-        <div>
+        <div className="gutters property">
           <h1 id="prop">Property & Conveyancing</h1>
           <h3>Buying or selling property - Conveyancing</h3>
           <p>
