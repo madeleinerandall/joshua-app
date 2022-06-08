@@ -1,8 +1,10 @@
 import "./PersonalInjury.scss";
+import ScrollToTop from "./ScrollToTop";
 
 function PersonalInjury() {
   return (
     <>
+      <ScrollToTop />
       <section>
         <div className="gutters personal">
           <h1 id="personal">Personal Injury</h1>

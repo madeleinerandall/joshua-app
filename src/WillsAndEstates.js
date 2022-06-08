@@ -1,8 +1,10 @@
 import "./WillsAndEstates.scss";
+import ScrollToTop from "./ScrollToTop";
 
 function WillsAndEstates() {
   return (
     <>
+      <ScrollToTop />
       <section>
         <div className="gutters wills">
           <h1 id="wills">Wills & Estates</h1>

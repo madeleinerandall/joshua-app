@@ -2,10 +2,12 @@ import "./style.scss";
 import ActionAreaCard from "../ActionAreaCard/";
 import Banner from "../Banner/";
 import { Link } from "react-router-dom";
+import ScrollToTop from "../../ScrollToTop";
 
 function HomePage() {
   return (
     <main>
+      <ScrollToTop />
       <section className="about">
         <div className="gutters">
           <h2 className="padding">
