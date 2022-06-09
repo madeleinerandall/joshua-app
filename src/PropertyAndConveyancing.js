@@ -1,27 +1,29 @@
 import "./PropertyAndConveyancing.scss";
+import ScrollToTop from "./ScrollToTop";
 
 function PropertyAndConveyancing() {
   return (
     <>
+      <ScrollToTop />
       <section>
-        <div>
-          <h1 id="prop">Property & Conveyancing</h1>
+        <div className="gutters property">
+          <h1 id="prop">Property &amp; Conveyancing</h1>
           <h3>Buying or selling property - Conveyancing</h3>
           <p>
             Whether you are you buying or selling property in NSW, or need
-            assistance with a caveat or by-law, Randall & Associates aim to
+            assistance with a caveat or by-law, Randall &amp; Associates aim to
             provide a fast, efficient, reliable and friendly service.
           </p>
           <p>
-            At Randall & Associates we understand that the process of buying and
-            selling property is a huge decision, involving a lot of time, money
-            and effort. With such a large investment, it can be very stressful
-            dealing with the legalities of your sale or purchase. That’s why we
-            offer a conveyancing service that ensures your property conveyance
-            is completed quickly and professionally, so that your transaction is
-            as stress free as possible. We will review your contract and guide
-            you through the legal process right through to the day of
-            settlement.
+            At Randall &amp; Associates we understand that the process of buying
+            and selling property is a huge decision, involving a lot of time,
+            money and effort. With such a large investment, it can be very
+            stressful dealing with the legalities of your sale or purchase.
+            That's why we offer a conveyancing service that ensures your
+            property conveyance is completed quickly and professionally, so that
+            your transaction is as stress free as possible. We will review your
+            contract and guide you through the legal process right through to
+            the day of settlement.
           </p>
           <h3>
             Why do you need a lawyer/solicitor/conveyancer for your property

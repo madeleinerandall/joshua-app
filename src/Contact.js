@@ -6,6 +6,7 @@ import MenuItem from "@mui/material/MenuItem";
 import FormControl from "@mui/material/FormControl";
 import Select from "@mui/material/Select";
 import Button from "@mui/material/Button";
+import ScrollToTop from "./ScrollToTop";
 
 function Contact() {
   const [firstName, setFirstName] = useState("");
@@ -32,6 +33,7 @@ function Contact() {
 
   return (
     <>
+      <ScrollToTop />
       <section className="form">
         <div id="foo">
           <h1>Contact us</h1>

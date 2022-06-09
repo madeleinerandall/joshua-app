@@ -2,20 +2,6 @@ import "./Header.scss";
 import { Link } from "react-router-dom";
 
 function Header() {
-  function scrollToSection(e) {
-    e.preventDefault();
-    const href = e.target.getAttribute("href");
-    document.querySelector(href).scrollIntoView({
-      behavior: "smooth",
-    });
-  }
-
-  function scrollToSection2(href) {
-    document.querySelector(href).scrollIntoView({
-      behavior: "smooth",
-    });
-  }
-
   function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
   }
@@ -43,15 +29,9 @@ function Header() {
         </span>
 
         <div className="items">
-          <a href="#prop" onClick={scrollToSection}>
-            Property & Conveyancing
-          </a>
-
-          <a href="#personal" onClick={scrollToSection}>
-            Personal Injury
-          </a>
-
-          <a onClick={() => scrollToSection2("#wills")}>Wills & Estates</a>
+          <Link to="/property-and-conveyancing">Property & Conveyancing</Link>
+          <Link to="/personal-injury">Personal Injury</Link>
+          <Link to="/wills-and-estates">Wills & Estates</Link>
 
           <Link className="butt" to="/contact">
             <img

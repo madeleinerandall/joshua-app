@@ -20,9 +20,9 @@ function Footer() {
 
           <ul>
             <h4>Practice Areas</h4>
-            <a href="/#prop">Property & Conveyancing</a>
-            <a href="/#personal">Personal Injury</a>
-            <a href="/#wills">Wills & Estates</a>
+            <Link to="/property-and-conveyancing">Property & Conveyancing</Link>
+            <Link to="/personal-injury">Personal Injury</Link>
+            <Link to="/wills-and-estates">Wills & Estates</Link>
           </ul>
 
           <ul>
@@ -38,8 +38,8 @@ function Footer() {
             Copyright © Randall & Associates Pty Ltd, 2022. All rights reserved.
           </p>
           <ul className="services">
-            <a href="/">Home</a>
-            <a href="/#prop">Services</a>
+            <Link to="/">Home</Link>
+            {/* <Link to="/#prop">Services</a> */}
             <Link to="/contact">Contact us</Link>
           </ul>
         </div>

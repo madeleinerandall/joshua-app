@@ -1,8 +1,10 @@
 import "./Tc.scss";
+import ScrollToTop from "./ScrollToTop";
 
 function Tc() {
   return (
     <div className="tc">
+      <ScrollToTop />
       <h1>Terms and Conditions</h1>
       <p>
         The information and material on Randall & Associates’ website is
